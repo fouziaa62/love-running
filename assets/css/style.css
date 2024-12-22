@@ -11,9 +11,11 @@ body{
     color:#3a3a3a;
 }
  header{
-    background-color: green;
-    
+    background-color: green;}
 
+h1 {
+    font-family:sans-serif;
+}
 main{
     background-color: aquamarine;
     flex:1 0 auto;
@@ -21,7 +23,4 @@ main{
 footer{
     background-color: olive;
     
-}
-h1 {
-    font-family:sans-serif;
 }

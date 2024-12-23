@@ -34,7 +34,7 @@ h1 {
 }
 #menu{
     letter-spacing: 4px;
-    font-size:11px;
+    font-size:21px;
     list-style-type: none;
 }
 menu > li {
@@ -68,9 +68,43 @@ nav{
 main{
     background-color: aquamarine;
     flex:1 0 auto;
-    margin-top: 47px;
+    margin-top: 79px;
 }
 footer{
     background-color: olive;
     
+}
+@media screen and (min-width:768px) {
+    nav{
+        display: block;
+        position:relative;
+        box-shadow:none;
+        width:fit-content;
+        padding-right: 1rem;
+
+    }
+    #menu{
+        display:flex;
+    }
+    #menu>li{
+        padding-left: 1rem;
+
+    }
+    .nav-toggle-label{
+        display:none;
+    }
+    #logo{
+        font-size: 200%;
+        line-height: 75px;
+        margin:0 0.5rem;
+    }
+    
+    
+}
+@media screen and (min-width:992px) {
+    #menu a:hover { 
+        border-bottom: 1px solid #3a3a3a;
+
+    }
+
 }
